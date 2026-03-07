@@ -1,6 +1,6 @@
 {
   "name": "pi-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beautiful terminal clock, timer, stopwatch, and pomodoro for pi",
   "pi-extension": "extensions/pi-clock.ts",
   "keywords": [
