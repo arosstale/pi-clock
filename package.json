@@ -3,11 +3,26 @@
   "version": "1.0.0",
   "description": "Beautiful terminal clock, timer, stopwatch, and pomodoro for pi",
   "pi-extension": "extensions/pi-clock.ts",
-  "keywords": ["pi-extension", "clock", "timer", "pomodoro", "terminal", "dashboard"],
+  "keywords": [
+    "pi-extension",
+    "clock",
+    "timer",
+    "pomodoro",
+    "terminal",
+    "dashboard"
+  ],
   "author": "artale",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/arosstale/pi-clock.git"
+  },
+  "pi": {
+    "commands": [
+      "clock",
+      "timer",
+      "stopwatch",
+      "pomodoro"
+    ]
   }
 }
